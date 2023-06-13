@@ -51,9 +51,10 @@ p {
     font-weight: bold;
 }
 
-img {
+ img {
     border-radius: 50px;
-
+    width: 423px;
+    height:563px ;
 }
 
 a {
@@ -102,10 +103,19 @@ small a {
     border: 2px solid #e58df5;
     border-radius: 10%;
     width: 400px;
-    height: 430px;
+    height: 450px;
     align-items: center;
     justify-content: center;
     box-shadow: 4px -3px 50px -16px #D66DE8;
+}
+
+.form-div i {
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-left: 90%;
+    margin-top: -10%;
+    color: #CCC;
+    cursor: pointer;
 }
 
 .content-form form {
@@ -157,9 +167,6 @@ input[type="password"] {
 
 }
 
-
-
-
 .options-login input[type="checkbox"] {
     margin-right: 8px;
     width: 17px;
@@ -179,6 +186,60 @@ small {
     line-height: 35px;
 }
 
+/* bg falme curve */
+
+.dark-background{
+    background: url(/assets/img/boybg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        padding: 35px 25px;
+}
+
+.dark-background h1{
+    color: #CCC;
+}
+
+.dark-background p {
+    color: #193bb8;
+    text-shadow: #000 0px 1px 0px;
+}
+
+.dark-background p span{
+    color: #082283;
+        text-shadow: #000 0px 1px 0px;
+}
+
+.dark-form{
+    background-image: linear-gradient(to right bottom, #0a144a, #10205e, #152d72, #173b87, #17499d, #1d56aa, #2463b7, #2b71c4, #3f80c9, #528ece, #669cd2, #7baad6);
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.dark-form form button{
+    background-image: linear-gradient(to right top, #0a144a, #122464, #173680, #17499d, #0e5dbb);
+}
+
+.dark-div{
+    border: 2px solid #1166ce;
+        border-radius: 10%;
+        width: 400px;
+        height: 450px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 4px -3px 50px -16px #020829;
+}
+
+/* mobile */
+
 
 @media only screen and (max-width: 876px) {
     .form-div {
@@ -187,13 +248,13 @@ small {
 }
 
 @media only screen and (max-width: 780px) {
-    img {
-        width: 300px;
+ img {
+        width: 290px;
     }
 }
 
 @media only screen and (max-width: 663px) {
-    img {
+ img {
         width: 250px;
     }
 
