@@ -240,6 +240,11 @@ small {
 
 /* mobile */
 
+@media only screen and (max-width: 1366px){
+    img{
+        height: 400px;
+    }
+}
 
 @media only screen and (max-width: 876px) {
     .form-div {
